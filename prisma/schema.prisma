@@ -21,7 +21,7 @@ model User {
   image String?
   hashedPassword String?
   createdAt DateTime @default(now())
-  updatedAr DateTime @updatedAt
+  updatedAt DateTime @updatedAt
   favouriteIds String[] @db.ObjectId
 
   accounts Account[]
