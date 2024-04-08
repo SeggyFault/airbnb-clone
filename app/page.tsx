@@ -1,3 +1,5 @@
+import ClientOnly from "./components/ClientOnly";
+
 export default function Home() {
-  return <div className="text-rose-500 text-2xl">Hello AirBnB</div>;
+  return <ClientOnly></ClientOnly>
 }
